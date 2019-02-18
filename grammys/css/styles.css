@@ -54,6 +54,7 @@ h2 {
   font-weight: 250;
   font-size: 3.5em;
   text-align: center;
+  color: #3f888f;
 }
 
 .description {
@@ -61,20 +62,23 @@ h2 {
 }
 
 h3 {
-  color: #ffb800;
+  background:radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
   text-transform: uppercase;
-  font-weight: 300;
   font-size: 2.5em;
   text-align: center;
 }
 
 .winner {
-  color: #ffb800;
+  background:radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 .winnerDiv{
   border-style: dotted;
-  border-color: #ffb800;
+  border-color: #D1B464;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 15px; 
@@ -91,6 +95,10 @@ span {
   margin-left: 20px;
   font-style: italic;
   font-weight: bold;
+  ont-size: 1.5em;
+  background:radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 hr {
@@ -102,5 +110,5 @@ hr {
   padding: 20px;
   margin: 25px;
   overflow: hidden;
-  box-shadow: 5px 5px 10px #30CFD0;
+  box-shadow: 5px 5px 10px #3f888f;
 }
