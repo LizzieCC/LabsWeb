@@ -46,7 +46,7 @@ function loadNominees(){
                     }
                     //Add categories
                     for(let j=0; j<fields[i].categories.length; j++){
-                        new_html += `
+                        new_html += `<div class="card">
                             <h3>${fields[i].categories[j].category_name}</h3>
                             <p>${fields[i].categories[j].description}</p>
                         `;
@@ -67,12 +67,8 @@ function loadNominees(){
                             `;
                             }
 
-                        }
-                        console.log(fields[i].categories.length);
-
-
-                        new_html += `<hr> </hr>`;
-
+                        }         
+                        new_html += `</div>`;
                     }
                     //$("#stateCapital").val(data[i].capital);   
                 }
