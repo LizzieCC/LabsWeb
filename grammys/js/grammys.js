@@ -53,11 +53,12 @@ function loadNominees(){
                         //Add nominees for each
                         for(let k=0; k<fields[i].categories[j].nominees.length; k++){
                             if(fields[i].categories[j].winner_id == k){
-                                new_html += `
+                                new_html += ` <div class="winnerDiv">
                                 <h4 class="winner">${fields[i].categories[j].nominees[k].nominee}</h4>
                                 <span> WINNER! </span>
                                 <p>${fields[i].categories[j].nominees[k].artist}</p>
                                 <p>${fields[i].categories[j].nominees[k].info}</p>
+                                </div>
                             `;
                             }else{
                                 new_html += `

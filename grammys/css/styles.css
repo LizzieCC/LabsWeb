@@ -50,9 +50,8 @@ option {
 }
 
 h2 {
-  color: #eebd6b;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 250;
   font-size: 3.5em;
   text-align: center;
 }
@@ -62,7 +61,7 @@ h2 {
 }
 
 h3 {
-  color: #CDAD00;
+  color: #ffb800;
   text-transform: uppercase;
   font-weight: 300;
   font-size: 2.5em;
@@ -70,7 +69,16 @@ h3 {
 }
 
 .winner {
-  color: #CDAD00;
+  color: #ffb800;
+}
+
+.winnerDiv{
+  border-style: dotted;
+  border-color: #ffb800;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px; 
+
 }
 
 h4 {
@@ -94,5 +102,5 @@ hr {
   padding: 20px;
   margin: 25px;
   overflow: hidden;
-  box-shadow: 5px 5px 10px #CDAD00;
+  box-shadow: 5px 5px 10px #30CFD0;
 }
